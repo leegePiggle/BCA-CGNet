@@ -7,10 +7,10 @@ from collections import Counter
 # 1. 路径设置
 # ============================================================
 # 这里必须是包含 X.npy、y_binary.npy、y_stage.npy、sub_ids.npy 的 output_data 文件夹
-DATA_OUTPUT_DIR = r"F:\李师姐小论文\Pinch\output_data"
+DATA_OUTPUT_DIR = r""
 
 # 输出文件建议保存到 FinalFusion 的 pinch_features_merged 中
-SAVE_PATH = r"E:\111研究生\论文\李师姐论文\FinalFusion\SingleModelFeaturePreprocess\pinch_features_merged\pinch_window_features.pt"
+SAVE_PATH = r""
 
 os.makedirs(os.path.dirname(SAVE_PATH), exist_ok=True)
 
